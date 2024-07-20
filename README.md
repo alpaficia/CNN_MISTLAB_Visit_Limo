@@ -46,7 +46,6 @@ export XAUTH=~/.Xauthority
 ```
 Meanwhile, you also need to allow the user has the permissions to access the X11 by:
 ```
-xhost +local:root
 ```
 After these steps, you can run:
 ```

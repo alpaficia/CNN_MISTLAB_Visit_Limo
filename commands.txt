@@ -1,0 +1,79 @@
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key 6F3EFCDE
+sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo $(lsb_release -cs) main"
+m64/Packages  404  Not Found [IP: 202.141.160.110 443]
+
+[    0.000000] Kernel command line: tegraid=21.1.2.0.0 ddr_die=4096M@2048M section=512M memtype=0 vpr_resize usb_port_owner_info=0 lane_owner_info=0 emc_max_dvfs=0 touch_id=0@63 video=tegrafb no_console_suspend=1 console=ttyS0,115200n8 debug_uartport=lsport,4 earlyprintk=uart8250-32bit,0x70006000 maxcpus=4 usbcore.old_scheme_first=1 lp0_vec=0x1000@0xff780000 core_edp_mv=1075 core_edp_ma=4000 gpt tegra_fbmem=0x800000@0x92cb4000 is_hdmi_initialised=1  earlycon=uart8250,mmio32,0x70006000  root=/dev/mmcblk0p1 rw rootwait rootfstype=ext4 console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 sdhci_tegra.en_boot_part_access=1 quiet root=/dev/mmcblk1p1 rw rootwait rootfstype=ext4 
+[    0.618362] Linux video capture interface: v2.00
+[   14.384792] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[   14.394927] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[   14.403179] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[   14.411418] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[   14.419743] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[   14.428235] usbcore: registered new interface driver uvcvideo
+[  846.825947] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  846.833367] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  846.842286] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  846.852483] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  846.861115] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  846.922031] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  846.929446] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  846.937749] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  846.945967] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  846.954254] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  847.012252] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  847.019906] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  847.028222] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  847.036425] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  847.044768] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  847.117877] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  847.125422] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  847.133743] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  847.142034] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  847.150386] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  847.215952] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  847.223492] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  847.232238] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  847.240537] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  847.248893] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  847.310266] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  847.317932] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  847.326825] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  847.335111] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  847.343570] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  847.404572] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  847.412100] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  847.420382] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  847.428630] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  847.436994] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  847.488046] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  847.495550] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  847.504181] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  847.512393] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  847.520674] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  847.589492] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  847.598261] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  847.606865] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  847.615087] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  847.623491] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  847.684239] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  847.691612] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  847.699869] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  847.708080] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  847.716388] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  847.781813] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  847.789707] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  847.798010] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  847.806283] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  847.814770] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  847.912215] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  847.919724] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  847.928191] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  847.937662] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  847.946049] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+[  869.064715] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (2bc5:050e)
+[  869.072475] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 4 was not initialized!
+[  869.080919] uvcvideo 1-2.1.2:1.0: Entity type for entity Extension 3 was not initialized!
+[  869.089120] uvcvideo 1-2.1.2:1.0: Entity type for entity Processing 2 was not initialized!
+[  869.097396] uvcvideo 1-2.1.2:1.0: Entity type for entity Camera 1 was not initialized!
+
+
